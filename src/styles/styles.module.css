@@ -14,7 +14,7 @@
   }
 
   .welcome_container {
-    background-image: url('/images/background.jpg');
+    background-image: url('/images/background1.jpg');
     background-size: cover;
     background-position: cover;
     background-repeat: no-repeat;
@@ -31,20 +31,20 @@
     justify-content: center;
   }
   
-  .slogan-word {
+  .slogan_word {
     font-size: 48px;
-    color: #333;
+    color: #fff;
     margin: 0 10px;
   }
 
-  .nav-sec {
+  .nav_sec {
     display: flex;
     justify-content: center;
     padding: 20px 0;
     background-color: #f2f2f2;
   }
   
-  .nav-sec a {
+  .nav_sec a {
     margin: 0 10px;
     text-decoration: none;
     color: #333;
