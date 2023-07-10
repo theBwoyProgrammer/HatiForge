@@ -1,0 +1,53 @@
+/* styles.module.css */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+    
+    height: 100vh;
+    width: 100%;
+  }
+
+  .welcome_container {
+    background-image: url('/images/background.jpg');
+    background-size: cover;
+    background-position: cover;
+    background-repeat: no-repeat;
+  }
+  
+  .welcome-h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  .slogan {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .slogan-word {
+    font-size: 48px;
+    color: #333;
+    margin: 0 10px;
+  }
+
+  .nav-sec {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    background-color: #f2f2f2;
+  }
+  
+  .nav-sec a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+  }
+  
